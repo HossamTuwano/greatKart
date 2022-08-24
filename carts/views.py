@@ -1,4 +1,3 @@
-from math import prod
 from django.shortcuts import render, redirect, get_object_or_404
 from store.models import Product
 from .models import Cart, CartItem
